@@ -1,1 +1,70 @@
 @import "https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap";
+
+:root {
+  --color-orange: #f8ab53e5;
+}
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background: #282a36;
+  font-family: 'Montserrat', sans-serif;
+  color: whitesmoke;
+  margin: 32px;
+}
+
+#wrapper {
+  text-align: center;
+  margin: 10px auto;
+}
+
+#wrapper img {
+  border-radius: 50%;
+  margin-bottom: 32px;
+  border: 4px solid var(--color-orange);
+  height: 450px;
+}
+
+#wrapper h1 {
+  margin-bottom: 24px;
+  font-size: 42px;
+  font-weight: bold;
+  line-height: 52px;
+}
+
+#wrapper h2 {
+  margin-bottom: 18px;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+  opacity: .9;
+}
+
+#wrapper ul {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: normal;
+  list-style: none;
+  opacity: .8;
+}
+
+.links {
+  text-align: center;
+  margin: 32px;
+}
+
+.links a {
+  margin: 0px 16px;
+  color: white;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--color-orange);
+}
+
+.links a:hover {
+  color: var(--color-orange);
+}
