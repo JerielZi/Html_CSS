@@ -3,9 +3,9 @@ const cards = document.querySelectorAll('.card');
 
 for (let card of cards) {
   card.addEventListener("click", function() {
-    const videoId = card.getAttribute("id");
+    const gitHubId = card.getAttribute("id");
     modalOverlay.classList.add('active')
-    modalOverlay.querySelector("iframe").src = `https://www.youtube.com/embed/${videoId}`;
+    modalOverlay.querySelector("iframe").src = `https://github.com/JerielZi/${gitHubId}`;
   })
 }
 
