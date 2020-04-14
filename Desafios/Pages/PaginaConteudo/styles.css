@@ -94,6 +94,14 @@ body {
   cursor: pointer;
 }
 
+/* .modal .maximize-modal {
+  color: black;
+  position: absolute;
+  right: 40px;
+  top: 18px;
+  cursor: pointer;
+} */
+
 /*==== MODAL.ACTIVE ====*/
 .modal-overlay.active {
   opacity: 1;
